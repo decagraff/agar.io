@@ -1,5 +1,6 @@
 # Proxies
 Use HTTP proxies from some sites...
+Original bots by Nel
 
 
 # Free-agario-bots
