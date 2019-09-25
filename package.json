@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "description": "Free open source agar.io bots",
     "author": "Nel",
+    "scripts": {
+        "start": "node index.js"
+    },
     "dependencies": {
         "colour": "^0.7.1",
         "express": "^4.17.1",
