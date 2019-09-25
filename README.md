@@ -1,6 +1,5 @@
 # Proxies
 Use HTTP proxies from some sites...
-Original bots by Nel
 
 
 # Free-agario-bots
@@ -54,3 +53,5 @@ If you get captcha alert you need to change your IP or get rid of captcha by pla
 
 ## Donate
 PayPal: nelthedeveloper@gmail.com (original creator) 
+
+PayPal: sonnybuchan12@gmail.com

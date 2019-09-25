@@ -37,8 +37,16 @@ class rpxo {
                     .replace('#', '')
                     .replace(/ +/g, '');
 
-                if (!loading) loading = this.fallback;
                 continue;
+            }
+
+            if (!loading) loading = this.fallback;
+            if(
+                proxy.includes('://')
+                && Object.keys(this.protocols).includes(proxy.split("://")[0])
+            ) {
+              this.proxies.push(proxy);
+              continue;
             }
 
             this.proxies.push(`${loading.toLowerCase()}://${proxy}`);
