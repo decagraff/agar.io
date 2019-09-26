@@ -1,5 +1,6 @@
-# MultiNames
-[MultiName] Now you can use more names at once. How use it? In box for name type like this => Example: `Name1,Name2,Name3,...`
+# MultiName
+[MultiName] Now you can use more names at once. 
+How use it? In box for name type like this => Example: `Name1,Name2,Name3,...`
 
 # Proxies
 Bots working with HTTP, SOCKS4, SOCKS5.
