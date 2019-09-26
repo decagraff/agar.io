@@ -3,6 +3,6 @@
         "port": 8083,
         "version": "1.0.10",
         "update": true,
-        "link": "https://github.com/darkx-developer/agar.io/edit/master/config.json"
+        "link": "https://github.com/darkx-developer/agar.io/blob/master/config.json"
     }
 }
