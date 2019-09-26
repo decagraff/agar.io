@@ -135,6 +135,7 @@ function calculateDistance(botX, botY, targetX, targetY) {
 
 class Bot {
     constructor() {
+        this.name = bots.name[~~(Math.random() * bots.name.length)];
         this.ws = null;
         this.encryptionKey = 0;
         this.decryptionKey = 0;
@@ -244,7 +245,7 @@ class Bot {
                 this.isConnected = true;
                 break;
             case 242:
-                this.send(buffers.spawn(bots.name));
+                this.send(buffers.spawn(this.name));
                 break;
             case 255:
                 this.handleCompressedBuffer(algorithm.uncompressBuffer(reader.buffer.slice(5), Buffer.allocUnsafe(reader.readUint32())));
@@ -403,7 +404,7 @@ new WebSocket.Server({
                     game.protocolVersion = reader.readUint32();
                     game.clientVersion = reader.readUint32();
                     user.isAlive = !!reader.readUint8();
-                    bots.name = reader.readString();
+                    bots.name = reader.readString().split(",");
                     bots.amount = reader.readUint8();
                     dataBot.connect();
                     let index = 0;
