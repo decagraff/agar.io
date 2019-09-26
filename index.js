@@ -300,7 +300,7 @@ class Bot {
                 this.followMouseTimeout = null
             }
             this.followMouse = false;
-            this.send(buffers.spawn(bots.name))
+            this.send(buffers.spawn(this.name))
         }
     }
     updateOffset(reader) {
