@@ -3,7 +3,10 @@
 
 # Proxies
 BOTS WORKING WITH HTTP, SOCKS4, SOCKS5 PROXIES.
-[freshnewproxies24](http://www.freshnewproxies24.top) [socksproxylist24](http://www.socksproxylist24.top) [proxyserverlist24](http://www.proxyserverlist24.top) [proxy-list](https://www.proxy-list.download)
+1. [freshnewproxies24](http://www.freshnewproxies24.top) 
+2. [socksproxylist24](http://www.socksproxylist24.top) 
+3. [proxyserverlist24](http://www.proxyserverlist24.top) 
+4. [proxy-list](https://www.proxy-list.download)
 
 # Free-agario-bots
 Free open source agar.io bots
