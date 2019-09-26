@@ -9,8 +9,8 @@ Bots working with HTTP, SOCKS4, SOCKS5.
 3. [proxyserverlist24](http://www.proxyserverlist24.top) 
 4. [proxy-list](https://www.proxy-list.download)
 
-# Free-agario-bots
-Free open source agar.io bots
+# Discord
+Join in discord for help.
 [Join our Discord](https://discord.gg/Bm2dwey), 
 [Join our Discord](https://discord.gg/SDMNEcJ)
 
