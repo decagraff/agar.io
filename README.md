@@ -2,8 +2,8 @@
 [MultiName] Now you can use more names at once. How use it? In box for name type like this => Example: "Name1,Name2,Name3,..."
 
 # Proxies
-[Proxies] BOTS WORKING WITH HTTP, SOCKS4, SOCKS5 PROXIES.
-[Site] (http://www.freshnewproxies24.top) (http://www.socksproxylist24.top/) (http://www.proxyserverlist24.top/) (https://www.proxy-list.download/)
+BOTS WORKING WITH HTTP, SOCKS4, SOCKS5 PROXIES.
+[freshnewproxies24](http://www.freshnewproxies24.top) [socksproxylist24](http://www.socksproxylist24.top) [proxyserverlist24](http://www.proxyserverlist24.top) [proxy-list](https://www.proxy-list.download)
 
 # Free-agario-bots
 Free open source agar.io bots
@@ -11,7 +11,7 @@ Free open source agar.io bots
 [Join our Discord](https://discord.gg/SDMNEcJ)
 
 
-Windows
+# Windows
 -------
 1. Install [Node.js](https://nodejs.org)
 2. Install [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) extension on your browser
@@ -25,7 +25,7 @@ Windows
 10. To run the bots again just run `start.bat`, click "Connect" button and then click "Start Bots" button if you did everything right bots should start again
 11. Always make sure you wait the 30 seconds for process to close or you are gonna get captcha on your ip
 
-VPS
+# VPS
 -------
 1. I recommend using a Ubuntu 18.04 LTS from DigitalOcean. You can get one for $5/month and you can use this [link](https://m.do.co/c/fa7a805f6e60) to get $50 on the platform
 2. Run `sudo apt install git` command
@@ -44,8 +44,7 @@ VPS
 15. Always make sure you wait the 30 seconds for process to close or you are gonna get captcha on the VPS ip
 16. If you wanna run it 24/7 on the VPS run `sudo npm i -g pm2` command and then run `sudo pm2 start process.js` command
 
-
-## Captcha (only for Windows)
+# Captcha (only for Windows)
 If you get captcha alert you need to change your IP or get rid of captcha by playing with your IP. You can do so by:
 - Restarting your router (only if you have a dynamic IP)
 - Connecting to a VPN server like one from [ProtonVPN](https://protonvpn.com) [NordVPN](https://nordvpn.com) which you make sure that doesn't has captcha
