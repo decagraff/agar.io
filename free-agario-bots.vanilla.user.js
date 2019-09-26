@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Free Agar.io Bots (Vanilla Version)
 // @namespace    Free and Real agario bots
-// @version      1.0.4
+// @version      1.0.10
 // @description  Free and Real open source agario bots
-// @author       Nel, xN3BULA, Jimboy3100
+// @author       Nel, xN3BULA, Jimboy3100, Darkx
 // @grant        none
 // @run-at       document-start
 // @match        *://agar.io/*
@@ -388,7 +388,7 @@ function setGUI() {
         <br>
         <span id="aiText">Bots AI: <b id="botsAI">Disabled</b></span>
         <br>
-        <input type="text" id="botsName" placeholder="Bots Name" maxlength="15" spellcheck="false">
+        <input type="text" id="botsName" placeholder="Bots Name" maxlength="100" spellcheck="false">
         <input type="number" id="botsAmount" placeholder="Bots Amount" min="10" max="199" spellcheck="false">
 		<input type="text" id="botsRemoteIP" placeholder="ws://localhost:8083" maxlength="100" spellcheck="false">
         <button id="connect">Connect</button>
