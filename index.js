@@ -320,7 +320,7 @@ class Bot {
             let isConditionMet = false;
             switch (type) {
                 case 'biggerPlayer':
-                    isConditionMet = !entity.isVirus && !entity.isPellet && entity.size > botSize * 1.15 && entity.name !== bots.name;
+                    isConditionMet = !entity.isVirus && !entity.isPellet && entity.size > botSize * 1.15 && entity.name !== this.name;
                     break;
                 case 'pellet':
                     isConditionMet = !entity.isVirus && entity.isPellet;
