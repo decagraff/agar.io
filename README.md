@@ -1,14 +1,14 @@
-# Proxies
-Use HTTP proxies from some sites...
+# MultiNames
+[MultiName] Now you can use more names at once. How use it? In box for name type like this => Example: "Name1,Name2,Name3,..."
 
+# Proxies
+[Proxies] BOTS WORKING WITH HTTP, SOCKS4, SOCKS5 PROXIES.
+[Site] (http://www.freshnewproxies24.top) (http://www.socksproxylist24.top/) (http://www.proxyserverlist24.top/) (https://www.proxy-list.download/)
 
 # Free-agario-bots
 Free open source agar.io bots
-
+[Join our Discord](https://discord.gg/Bm2dwey)
 [Join our Discord](https://discord.gg/SDMNEcJ)
-
-## Usage
-[Video tutorial for Windows](https://www.youtube.com/watch?v=TkihvNIpiTw)
 
 
 Windows
@@ -48,8 +48,5 @@ VPS
 ## Captcha (only for Windows)
 If you get captcha alert you need to change your IP or get rid of captcha by playing with your IP. You can do so by:
 - Restarting your router (only if you have a dynamic IP)
-- Connecting to a VPN server like one from [ProtonVPN](https://protonvpn.com) which you make sure that doesn't has captcha
-- Playing logged out of your agar.io account until captcha goes away
+- Connecting to a VPN server like one from [ProtonVPN](https://protonvpn.com) [NordVPN](https://nordvpn.com) which you make sure that doesn't has captcha
 
-## Donate
-PayPal: nelthedeveloper@gmail.com (original creator) 
