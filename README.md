@@ -1,8 +1,8 @@
 # MultiNames
-[MultiName] Now you can use more names at once. How use it? In box for name type like this => Example: "Name1,Name2,Name3,..."
+[MultiName] Now you can use more names at once. How use it? In box for name type like this => Example: *"Name1,Name2,Name3,..."*
 
 # Proxies
-BOTS WORKING WITH HTTP, SOCKS4, SOCKS5 PROXIES.
+Bots working with HTTP, SOCKS4, SOCKS5.
 1. [freshnewproxies24](http://www.freshnewproxies24.top) 
 2. [socksproxylist24](http://www.socksproxylist24.top) 
 3. [proxyserverlist24](http://www.proxyserverlist24.top) 
