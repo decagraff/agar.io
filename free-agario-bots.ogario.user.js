@@ -6,7 +6,7 @@
 // @grant        GM_xmlhttpRequest
 // @run-at       document-start
 // @match        *://agar.io/*
-// @connect      sonnybuchan.co.uk
+// @connect      pastebin.com
 // @connect      cdn.ogario.ovh
 // ==/UserScript==
 
@@ -28,7 +28,7 @@ if(!navigator.userAgent.includes('Chrome/') || Number(navigator.userAgent.match(
 
 GM_xmlhttpRequest({
     method: 'GET',
-    url: 'https:/sonnybuchan.co.uk/version.txt',
+    url: 'https://pastebin.com/raw/XE4vzVqm',
     onload(res1){
         if(res1.responseText.split(';')[0].split('=')[1] === CLIENT_VERSION){
             GM_xmlhttpRequest({
