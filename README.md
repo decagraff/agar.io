@@ -11,7 +11,7 @@ Bots working with HTTP, SOCKS4, SOCKS5.
 
 # Free-agario-bots
 Free open source agar.io bots
-[Join our Discord](https://discord.gg/Bm2dwey)
+[Join our Discord](https://discord.gg/Bm2dwey), 
 [Join our Discord](https://discord.gg/SDMNEcJ)
 
 # Windows
