@@ -1,4 +1,4 @@
-#Info
+# Info
 Bots can work without proxies and with proxies. If you have problem with captcha, use bots with proxies. If u don't, use bots without proxies. 
 
 # MultiName
