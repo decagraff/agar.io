@@ -1,6 +1,3 @@
-# Info
-Bots can work without proxies and with proxies. If you have problem with captcha, use bots with proxies. If u don't, use bots without proxies. 
-
 # MultiName
 [MultiName] Now you can use more names at once. 
 How use it? In box for name type like this => Example: `Name1,Name2,Name3,...`
