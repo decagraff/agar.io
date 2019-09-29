@@ -614,18 +614,16 @@ function setGUIEvents() {
         if (!window.connection.ws || window.connection.ws.readyState !== WebSocket.OPEN) window.connection.connect()
     })
     document.getElementById('startBots').addEventListener('click', () => {
-        if (window.game.url && window.game.protocolVersion && window.game.clientVersion && !window.user.startedBots) {
-			this.partytoken = MC.getPartyToken()
-			if (this.partytoken!="" && this.partytoken!=null){
-				if (window.bots.name && window.bots.amount && !document.getElementById('socialLoginContainer')) window.connection.send(window.buffers.startBots(window.game.url.split('?')[0], window.game.protocolVersion, window.game.clientVersion, window.user.isAlive, window.unescape(window.encodeURIComponent(window.bots.name)), window.bots.amount))
-				//if (window.bots.name && window.bots.amount && !document.getElementById('socialLoginContainer')) window.connection.send(window.buffers.startBots(window.game.url.split('?')[0], window.game.protocolVersion, window.game.clientVersion, window.user.isAlive, window.bots.name, window.bots.amount))
-				else alert('Bots name and amount are required before starting the bots, also you need to be logged in to your agar.io account in order to start the bots')
-			}
-			else{
-				alert('Bots are designed for party')
-			}
+        if (application.gameMode==":party"){
+            if(window.game.url && window.game.protocolVersion && window.game.clientVersion && !window.user.startedBots){
+                if(window.bots.name && window.bots.amount && window.getComputedStyle(document.getElementsByClassName('btn-login-play')[0]).getPropertyValue('display') === 'none') window.connection.send(window.buffers.startBots(window.game.url, window.game.protocolVersion, window.game.clientVersion, window.user.isAlive, window.unescape(window.encodeURIComponent(window.bots.name)), window.bots.amount))
+                else toastr.info('Bots name, amount and user login are required before starting the bots')
+            }
         }
-    })
+        else{
+            alert('Bots are designed for party')
+        }
+        })
     document.getElementById('stopBots').addEventListener('click', () => {
         if (window.user.startedBots) window.connection.send(new Uint8Array([1]).buffer)
     })
