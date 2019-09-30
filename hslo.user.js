@@ -2,7 +2,7 @@
 // @name         HSLO BOTS SCRIPT
 // @description  HSLO WITH AGAR BOTS
 // @version      1.0.10
-// @author       2CL
+// @author       2CL & test1145
 // @match        *://agar.io/*
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js
 // @run-at       document-start
