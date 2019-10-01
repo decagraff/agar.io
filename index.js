@@ -2,15 +2,15 @@ process.on('uncaughtException', console.error);
 
 const WebSocket = require('ws'),
     { murmur2 } = require('murmurhash-js'),
-    buffers = require('./buffers'),
-    algorithm = require('./algorithm'),
-    Reader = require('./reader'),
-    Entity = require('./entity'),
+    buffers = require('./core/buffers'),
+    algorithm = require('./core/algorithm'),
+    Reader = require('./core/reader'),
+    Entity = require('./core/entity'),
     requester = require("request-promise"),
-    logger = require("./logger.js"),
+    logger = require("./core/logger.js"),
     config = require('./config.json');
 
-const proxyManager = require('./proxies.js');
+const proxyManager = require('./core/proxies.js');
 const proxies = new proxyManager();
 
 const userBots = [];
