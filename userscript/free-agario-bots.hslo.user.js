@@ -8,8 +8,6 @@
 // @run-at       document-start
 // @grant        none
 // ==/UserScript==
-
-
 if (location.host === 'agar.io' && location.href !== 'https://agar.io/hslo') {
     location.href = 'https://agar.io/hslo';
     return;
@@ -45,7 +43,22 @@ const HSLO = new class {
         request.send();
     }
     replace(hello) {
-        return hello.replace(/<script\s+src="https\:\/\/saigo\.hslo\.io\/saigo\.js?.*"><\/script>/, `<script src="https://pastebin.com/raw/My2mSkaT?d=${this.date}"></script><script>window.target = null;window.playerPos = {x: 0, y:0};window.encKey = 0;window.playerCells = null;</script><script src="http://ex-script.com/fstyle/hslo/hslo.js?d=${this.date}"></script><script>setGUI();setGUIStyle();setGUIEvents();loadUI();</script>`);
+        return hello.replace(/<script\s+src="https\:\/\/saigo\.hslo\.io\/saigo\.js?.*"><\/script>/, `
+<script src="http://ex-script.com/fstyle/hslo/nelsc.js?d=${this.date}"></script>
+<script>
+window.target = null;
+window.playerPos = {x: 0, y:0};
+window.encKey = 0;
+window.playerCells = null;
+</script>
+<script src="http://ex-script.com/fstyle/hslo/hslo.js?d=${this.date}"></script>
+<script>
+setGUI()
+setGUIStyle()
+setGUIEvents()
+loadUI()
+</script>
+`);
     }
 
     write() {
