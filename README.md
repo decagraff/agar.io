@@ -1,3 +1,6 @@
+# Info
+You can run bots on Ubuntu, Linux, Windows, Mac.
+
 # MultiName
 [MultiName] Now you can use more names at once. 
 How use it? In box for name type like this => Example: `Name1,Name2,Name3,...`
